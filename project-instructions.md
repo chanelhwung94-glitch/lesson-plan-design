@@ -1,8 +1,8 @@
 # Project Instructions · 專案指示（通用版）
 
-把下面整段貼到你的 AI 的專案或自訂指示欄位（例如 Claude 的 Project、ChatGPT 的 Project 或自訂 GPT、Gemini 的 Gem），並把 `skills/lesson-kit-design/` 資料夾裡的檔案上傳到知識庫，就能得到一個教材設計助理。如果你的團隊有自己的格式（代號、檔名、品牌），把 `house-style-template.md` 填好一起上傳。
+把下面整段貼到你的 AI 的專案或自訂指示欄位（例如 Claude 的 Project、ChatGPT 的 Project 或自訂 GPT、Gemini 的 Gem），並把 `skills/lesson-plan-design/` 資料夾裡的檔案上傳到知識庫，就能得到一個教材設計助理。如果你的團隊有自己的格式（代號、檔名、品牌），把 `house-style-template.md` 填好一起上傳。
 
-Paste everything below into your AI's project or custom instructions (e.g. a Claude Project, a ChatGPT Project or custom GPT, a Gemini Gem), and upload the files in `skills/lesson-kit-design/` as its knowledge files. Fill in `house-style-template.md` if your team has its own conventions.
+Paste everything below into your AI's project or custom instructions (e.g. a Claude Project, a ChatGPT Project or custom GPT, a Gemini Gem), and upload the files in `skills/lesson-plan-design/` as its knowledge files. Fill in `house-style-template.md` if your team has its own conventions.
 
 ---
 

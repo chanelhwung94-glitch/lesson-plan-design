@@ -1,4 +1,4 @@
-# Lesson Kit Design Skill · 教材包設計 Skill
+# Lesson Plan Design Skill · 教案設計 Skill
 
 **by Chanel from Youth Impact Taiwan**
 
@@ -65,17 +65,17 @@ This skill is plain text (Markdown), so it works with most AI assistants that su
 ### 任何 AI：專案／自訂指示 Any AI: project or custom instructions
 適用 ChatGPT（Project 或自訂 GPT）、Gemini（Gem）、Claude（Project）等。 Works with ChatGPT (Projects or custom GPTs), Gemini (Gems), Claude (Projects) and others.
 1. 建立一個新的專案、GPT 或 Gem
-2. 把 `skills/lesson-kit-design/` 裡的檔案上傳到知識庫
+2. 把 `skills/lesson-plan-design/` 裡的檔案上傳到知識庫
 3. 把 [`project-instructions.md`](project-instructions.md) 的內容貼到指示欄位
 
 ### 支援 Skills 的 AI（例如 Claude）AIs that support skills (e.g. Claude)
-1. 把 `skills/lesson-kit-design` 資料夾單獨壓縮成 `lesson-kit-design.zip`
+1. 把 `skills/lesson-plan-design` 資料夾單獨壓縮成 `lesson-plan-design.zip`
 2. 在 AI 的設定中找到 Skills，上傳這個 zip
 
 ### Claude Code
 ```bash
 git clone https://github.com/chanelhwung94-glitch/lesson-plan-design.git
-cp -r lesson-plan-design/skills/lesson-kit-design ~/.claude/skills/
+cp -r lesson-plan-design/skills/lesson-plan-design ~/.claude/skills/
 ```
 
 ## 使用方式 Usage

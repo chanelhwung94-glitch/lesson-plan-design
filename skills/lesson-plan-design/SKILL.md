@@ -1,9 +1,9 @@
 ---
-name: lesson-kit-design
+name: lesson-plan-design
 description: Design volunteer-ready lesson kits (default: bilingual 中英 elementary lessons, but any subject, age or level) — series map, curriculum research, outline, lesson plan / 教案, slide plan with per-slide prompts, worksheet / 學習單 and activity practice — through short rounds where the AI proposes options and the designer decides. Use whenever someone wants to plan a lesson or a lesson series, write or revise a 教案, make Advanced/Basic versions for different grades, extend a basic lesson into an advanced one, reverse-engineer a lesson plan from existing slides, design classroom games or worksheets for a lesson, or check a lesson plan for quality — even if they don't say "lesson kit".
 ---
 
-# Lesson Kit Design · 教材設計流程
+# Lesson Plan Design · 教案設計流程
 
 This skill captures a curriculum design process for bilingual English lessons in Taiwanese elementary schools, where lessons are often taught by **volunteers, not trained teachers**. Every kit must let a first-time volunteer teach it without reading anything else, finish on time, and not be surprised by what the kids say.
 
