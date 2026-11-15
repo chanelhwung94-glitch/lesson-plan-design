@@ -15,7 +15,7 @@ Draft it as versions (v0.1, v0.2…) and get the designer's sign-off. Only then 
 
 ## Step 2: before designing a lesson, map what kids already have
 "Already learned" comes from two places — use both:
-1. **School baseline 學校程度** — what kids at this grade have met at school: the MOE 1000/1200 word lists, the GEPT Kids list and the publicly available 翰林／南一／康軒 elementary English textbooks (plus any list or textbook the user adds). This applies to every lesson, series or not.
+1. **School baseline 學校程度** — what kids at this grade have met at school: the MOE 1000/1200 word lists, the GEPT Kids list and the publicly available 翰林／南一／康軒 elementary English textbooks (plus any list or textbook the user adds; outside Taiwanese elementary schools, use the learners' own curriculum, textbooks and word lists instead). This applies to every lesson, series or not.
 2. **Earlier lessons in this series 系列前面的課** — what the series map says earlier lessons taught on top of the school baseline.
 
 From these, list:

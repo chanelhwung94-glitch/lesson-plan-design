@@ -3,6 +3,8 @@
 Do this before outlining. The aim: know what students at each grade have **already learned at school** about this topic, in any subject (social studies, science, life skills…, not only English), and what they haven't.
 
 ## What to look up
+The sources below are the **defaults for Taiwanese elementary schools**. If the learners are elsewhere, use their own curriculum or syllabus, textbooks and word lists or level framework instead — ask the designer which ones.
+
 1. **National curriculum** for the relevant subject(s) — which grade introduces the topic (in Taiwan: 108 課綱 by 領域 and 學習階段).
 2. **Main textbook series by grade and unit** — in Taiwan, 康軒、翰林、南一. Note the grade/semester and unit where the topic appears.
 3. **English word lists** for vocabulary range — e.g. the MOE elementary 1000 words and 1200 thematic words, GEPT Kids. These check words, not concepts.

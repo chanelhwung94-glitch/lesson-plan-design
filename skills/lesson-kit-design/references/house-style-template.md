@@ -2,7 +2,7 @@
 
 Fill this in with your team's own conventions. If a team has its own copy (e.g. a members-only file), use that instead. Fonts, zhuyin and page layout are **not** here — they're required conditions in `lesson-plan.md` for every kit.
 
-Below are YIT's level-code and file-naming systems as a working example; keep, adapt or replace them.
+Below is a working example of a level-code and file-naming system. The grade ranges are only the default for Taiwanese elementary schools — define A and B by whatever levels fit your learners; keep, adapt or replace them.
 
 ## Level codes 教材代號 (example)
 Format: `{number}{level}`, plus `-1` / `-2` for a topic split across lessons.

@@ -2,12 +2,14 @@
 
 Whenever the class includes any grade 1–3 students, they need zhuyin on every Chinese character in student-facing material: worksheets, slides, game cards. This is a required condition of the kit (see `lesson-plan.md`). Teacher-only material (the lesson plan itself, answer keys) doesn't need it.
 
+This is the **default for Taiwanese elementary schools**. If your learners aren't young Taiwanese readers, skip this file and ask what reading support fits them instead (e.g. pinyin, furigana, picture cues, or none).
+
 ## Quick start for beginners 新手三步驟
 1. **下載字型：** 到翻轉教育的注音字型文章（連結見下方），下載「楷體注音（字嗨注音標楷）」，解壓縮後點兩下字型檔、按「安裝」，重開 Word／PowerPoint。
 2. **設定破音字：** 把學生要看的中文貼到「讀音選擇工具」，檢查破音字的讀音，再貼回文件。
 3. **確認：** 在 Word 選取中文、換成字嗨注音標楷，看到每個字右邊都有注音就成功了；匯出 PDF 後再看一次。
 
-If Claude is generating the document, send it the installed font file (or tell it the font is installed on the computer that will open the file), so the PDF uses the right font.
+If an AI is generating the document, send it the installed font file (or tell it the font is installed on the computer that will open the file), so the PDF uses the right font.
 
 ## Recommended method: a Bopomofo IVS zhuyin font
 Use a zhuyin font that follows the **注音IVS字型規格 (Bopomofo IVS font specification)** — https://github.com/ButTaiwan/bpmfvs. A zhuyin font draws each character with its bopomofo already attached on the right side, in the standard vertical layout, so you only apply the font to the Chinese text — no manual typing of symbols, no ruby fields.

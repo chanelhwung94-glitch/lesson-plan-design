@@ -6,7 +6,7 @@ Use these words consistently, and explain them in plain language the first time 
 |---|---|
 | 教案 Lesson plan | 給帶課志工看的上課說明：每一頁要做什麼、說什麼、大約多久 |
 | 教材包 Lesson kit | 一堂課需要的全部東西：教案、簡報、學習單或活動、備註 |
-| A / B / T / G | 範例代號：A = 4–6 年級進階版、B = 1–3 年級初階版、T = 不分年級或混齡的單一版本、G = 大地遊戲 |
+| A / B / T / G | 範例代號：A = 進階版（預設 4–6 年級）、B = 初階版（預設 1–3 年級；A、B 怎麼分可以自己決定）、T = 不分年級或混齡的單一版本、G = 大地遊戲 |
 | 系列性 Series | 同一個大主題分好幾堂課，前後要接起來，難度一課一課往上 |
 | 單元性 Standalone | 一堂自己就完整的課，不依賴其他課 |
 | 主線 Storyline | 串起整堂課的一個故事、旅程或問題 |

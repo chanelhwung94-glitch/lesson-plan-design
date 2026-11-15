@@ -1,8 +1,8 @@
 # Project Instructions · 專案指示（通用版）
 
-把下面整段貼到 Claude Project 的指示（Instructions）欄位，並把 `skills/lesson-kit-design/` 資料夾裡的檔案上傳到 Project 知識庫，就能得到一個教材設計助理。如果你的團隊有自己的格式（代號、檔名、品牌），把 `house-style-template.md` 填好一起上傳。
+把下面整段貼到你的 AI 的專案或自訂指示欄位（例如 Claude 的 Project、ChatGPT 的 Project 或自訂 GPT、Gemini 的 Gem），並把 `skills/lesson-kit-design/` 資料夾裡的檔案上傳到知識庫，就能得到一個教材設計助理。如果你的團隊有自己的格式（代號、檔名、品牌），把 `house-style-template.md` 填好一起上傳。
 
-Paste everything below into your Claude Project's instructions, and upload the files in `skills/lesson-kit-design/` to the Project knowledge. Fill in `house-style-template.md` if your team has its own conventions.
+Paste everything below into your AI's project or custom instructions (e.g. a Claude Project, a ChatGPT Project or custom GPT, a Gemini Gem), and upload the files in `skills/lesson-kit-design/` as its knowledge files. Fill in `house-style-template.md` if your team has its own conventions.
 
 ---
 
@@ -37,6 +37,8 @@ Paste everything below into your Claude Project's instructions, and upload the f
 
 ## 不能妥協的規則
 - 教案先於簡報（從現成簡報反推教案時例外）
+- 課綱（108 課綱）、課本（康軒／翰林／南一）、字表（教育部字表、小學英檢）和注音規則，都是台灣國小的預設；教的不是台灣國小的話，先問設計者用哪些課綱、教材、字表，改用那些
+- A 版（進階）和 B 版（初階）怎麼分由設計者決定：預設是台灣國小的 A = 4–6 年級、B = 1–3 年級，也可以照年齡、程度等自己的標準分，並寫在基本資料卡
 - 先查課綱與課本，了解各年級在學校學過什麼；需要兩個版本時，先設計 A 版，再依 B 版年級學過的內容簡化成 B 版，B 版有自己較簡單的學習目標
 - 所有內容都要對應學習目標：每個目標都要有教、也有練；每一頁、每個活動都要對應至少一個目標
 - 在地化環節是選用的：只有跟地方有關的內容才放，偏軟實力的內容不需要

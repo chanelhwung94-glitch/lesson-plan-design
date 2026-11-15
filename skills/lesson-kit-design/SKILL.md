@@ -1,11 +1,11 @@
 ---
 name: lesson-kit-design
-description: Design volunteer-ready bilingual (中英) elementary lesson kits — series map, curriculum research, outline, lesson plan / 教案, slide plan with per-slide prompts, worksheet / 學習單 and activity practice — through short rounds where Claude proposes options and the designer decides. Use whenever someone wants to plan a lesson or a lesson series, write or revise a 教案, make Advanced/Basic versions for different grades, extend a basic lesson into an advanced one, reverse-engineer a lesson plan from existing slides, design classroom games or worksheets for a lesson, or check a lesson plan for quality — even if they don't say "lesson kit".
+description: Design volunteer-ready lesson kits (default: bilingual 中英 elementary lessons, but any subject, age or level) — series map, curriculum research, outline, lesson plan / 教案, slide plan with per-slide prompts, worksheet / 學習單 and activity practice — through short rounds where the AI proposes options and the designer decides. Use whenever someone wants to plan a lesson or a lesson series, write or revise a 教案, make Advanced/Basic versions for different grades, extend a basic lesson into an advanced one, reverse-engineer a lesson plan from existing slides, design classroom games or worksheets for a lesson, or check a lesson plan for quality — even if they don't say "lesson kit".
 ---
 
 # Lesson Kit Design · 教材設計流程
 
-This skill captures the curriculum design process developed at **Youth Impact Taiwan 青年啟航協會**, where bilingual English lessons for Taiwanese elementary schools are designed by a curriculum team and taught by **volunteers, not trained teachers**. Every kit must let a first-time volunteer teach it without reading anything else, finish on time, and not be surprised by what the kids say.
+This skill captures a curriculum design process for bilingual English lessons in Taiwanese elementary schools, where lessons are often taught by **volunteers, not trained teachers**. Every kit must let a first-time volunteer teach it without reading anything else, finish on time, and not be surprised by what the kids say.
 
 The designer may also be a beginner. Guide them: explain why you ask each question and what each step is for, in plain words, and use `references/glossary.md` for terms the first time they appear.
 
@@ -42,17 +42,21 @@ The rules below apply to **every idea, whoever it comes from** — the designer'
 
 **When you draft anything yourself** (an initial outline, activity ideas, slide text), check it against the same rules **before** showing it: practice > 50%, nothing 超綱, every above-level item marked and supported, word lists checked, consistent word forms. Fix what you can first; if something still doesn't fit, say so and offer the fixes above. Never hand the designer a draft that quietly breaks a rule.
 
+## Defaults and your own context · 預設與自己的情境
+The curriculum, word lists and zhuyin rules in this skill are **defaults** for bilingual English lessons in Taiwanese elementary schools: the 108 curriculum (108 課綱), the 康軒／翰林／南一 textbooks, the MOE elementary word lists and GEPT Kids, and zhuyin for grades 1–3. If the learners are somewhere else — another country, age group, subject or language — ask at intake what they use instead (their curriculum or syllabus, textbooks, word lists or level framework, reading support for young readers) and use those wherever this skill names the Taiwanese defaults. The design process itself stays the same.
+
 ## Rules that don't bend · 不能妥協的規則
 
 - **Practice > 50% of lesson time** (aim 60–70%). Volunteers often run out of time, and kids remember what they do. When it doesn't fit, cut teaching content, never practice. Don't overstuff — split into two lessons instead. **What counts as practice:** Guided Practice, Independent Practice, review games and worksheets — time students spend doing. Warm-up, teaching/demonstration and wrap-up don't count. A typical 60-minute lesson: warm-up ~5, teaching ~15, practice ~35, wrap-up ~5.
 - **At least one practice form**: worksheet (static, paper-based memory 靜態、紙筆記憶) and/or activity practice (dynamic, body/kinesthetic memory 動態、肢體記憶).
 - **Lesson plan before slides** (except starting point 3).
+- **The designer defines the levels.** Advanced (A) and Basic (B) don't have to follow school grades. The default, for Taiwanese elementary schools, is A = grades 4–6 and B = grades 1–3, but the designer can split by any level that fits their learners (age, proficiency, school type, beginners vs returning students…). Ask how they want to split, and record what A and B mean on the info card. Wherever this skill says "grade" or "youngest grade", read it as the designer's levels and the least advanced learners in the class.
 - **Above-level content is allowed, but must be marked.** Words, patterns and concepts are checked against what students at that grade know (word lists + curriculum research). When something is above level, first suggest a simpler alternative. If the designer keeps it because it's core to the lesson, that's fine — mark it ⚠️ 超出程度 in the vocabulary list and on its lesson-plan pages, give it extra support (Chinese, pictures, gestures), and balance the load: lower difficulty elsewhere and/or add practice time for it. Never let above-level content in unmarked.
 - **Everything serves the learning objectives.** Each objective is taught and then practised; every page, activity and worksheet item serves at least one objective. Content that serves none gets cut.
 - **Only practise what was taught.** Every word, pattern and idea an activity or worksheet needs must be taught in this lesson or already known. Anything beyond that is 超綱 — cut it or move it to a later lesson.
 - **Rough whole-number times** per stage, not minute-by-minute.
 - **Bilingual teacher scripts** (中文 + English).
-- **標楷體 for Chinese; zhuyin on all student-facing Chinese whenever the class includes any grade 1–3 students** (see `references/zhuyin.md`).
+- **標楷體 for Chinese; zhuyin on all student-facing Chinese whenever the class includes any grade 1–3 students** (default for Taiwanese elementary schools; for other learners, use the reading support that fits them — see `references/zhuyin.md`).
 - **The lesson plan comes in English and Chinese.** The English version is required; a Chinese version is also produced. Both have the same structure and file format, and the same content — check they match section by section before delivering. Other documents (worksheets, activity write-ups) are single documents, bilingual on the page where students or volunteers need it.
 - **Protect students' privacy.** Don't put students' names or photos into AI tools or materials; photos of children need the school's or parents' consent; quiz apps should use nicknames.
 - **Use textbooks as reference only.** Check what grade and unit a topic is taught in; never copy textbook text, pictures or exercises into the kit.
@@ -79,7 +83,7 @@ Also check the lesson code doesn't collide with an existing one (house style).
 ### 1. Intake · 需求設定 — read `references/intake-questions.md`
 Ask every intake question — each one changes the design. For each, say **why you're asking** and **how to think about it if unsure**, and offer the default so a beginner can simply accept it. Ask in small groups (3–4 questions per message), not one long form. Ask early whether this is a regular lesson or a ground game 大地遊戲 — a ground game is a different kind of lesson (review + rules + station flow, no teaching block), so it changes everything after it. If the answer is "I don't know", give a concrete example and the default rather than skipping the question. Open by saying what "what students already know" is based on:
 
-> 「本版本判斷學生已學過的內容，參考的是網路上公開的資料：教育部國小英語字表（1000 單、1200 主題式單字）、小學英檢字表，以及翰林、南一、康軒公開的國小教材內容。如果你的學生用的是其他教材，或你有自己的資料，歡迎直接補充或上傳。」
+> 「本版本判斷學生已學過的內容，參考的是網路上公開的資料：教育部國小英語字表（1000 單、1200 主題式單字）、小學英檢字表，以及翰林、南一、康軒公開的國小教材內容。如果你的學生用的是其他教材，或你有自己的資料，歡迎直接補充或上傳。如果你教的不是台灣國小，請告訴我你們用的課綱、教材或字表，我會改用那些。」
 
 | Setting | Default |
 |---|---|

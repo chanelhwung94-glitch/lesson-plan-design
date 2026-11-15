@@ -7,7 +7,7 @@ The lesson plan is written for the **volunteer who teaches**, not for students. 
 These apply to every lesson plan and every student-facing document in the kit (worksheets, slides):
 
 1. **標楷體 for all Chinese text.** It's the standard-form Kaishu typeface Taiwanese kids learn to write from at school, so it matches what they see in textbooks and is easiest for them to read. English and numbers use Times New Roman in documents (a bold sans-serif is fine on slides for on-screen readability). In mixed paragraphs, set Chinese characters and Latin text separately rather than one font for the whole paragraph.
-2. **Zhuyin 注音 for younger grades.** Whenever the class includes any grade 1–3 students, every Chinese character on student-facing material gets zhuyin, placed to the **right** of the character as small vertical text (about half the character's size). Grades 4–6 only: no zhuyin. Use a zhuyin font and check polyphonic characters — see `zhuyin.md`.
+2. **Zhuyin 注音 for younger grades.** Whenever the class includes any grade 1–3 students, every Chinese character on student-facing material gets zhuyin, placed to the **right** of the character as small vertical text (about half the character's size). Grades 4–6 only: no zhuyin. (Default for Taiwanese elementary schools; other learners use the reading support that fits them.) Use a zhuyin font and check polyphonic characters — see `zhuyin.md`.
 3. **A4 portrait, white background, minimal layout.** Plain-text section titles, no coloured bars, gradients or striped tables — it prints cleanly in black and white at schools.
 
 ## Sections (in this order)
